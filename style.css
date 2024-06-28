@@ -11,8 +11,8 @@
     src: url(fonts/bluu-next/BluuNext-Bolditalic.otf);
     font-family: 'Mason Regular';
     src: url(fonts/Mason\ Regular.ttf);
-    font-family: 'Harry Potter' ;
-    src: url(fonts/HARRYP.TTF);
+    font-family: "harryp" ;
+    src: url("HARRYP.TTF");
     font-family: 'MansonSancs Bold';
     src: url(fonts/MasonSansBold.woff2);
     font-family: 'MasonSansRegular_Regular';
@@ -82,7 +82,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #d2aa6b;
-    font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
+    font-family: harryp;
     font-size: 49px;
     height: 0px;
 
@@ -112,7 +112,7 @@ body {
 .getthisbook{
     color: #d2aa6b;
     font-size: 2.4rem;
-    font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    font-family: 'MansonSancs Bold', 'BluuNext-Bold';
 }
 .getbtn{
     display: inline-block;
@@ -175,7 +175,7 @@ body {
     font-size: 24px;
     color: #d2aa6b;
     margin: 2px 0px 21px 0px;
-    font-family: 'Mason Regular', 'serif', 'sans-serif';
+    font-family: 'MansonSancs Bold', 'BluuNext-Bold';
 }
 .latest{
     margin: -15px 0px 74px 26px;
@@ -201,10 +201,10 @@ body {
 }
 .thirdbox{
     display: flex;
-    background-color: #cdb473c8;
     background-image: url(img/stars.png);
     background-size: cover;
-    background-blend-mode: multiply;
+    background-color: #1a1a1a;
+    mix-blend-mode: multiply;
 
 }
 .big-d-text{
@@ -212,6 +212,7 @@ body {
     width: 500px;
     margin: 12px 0px 0px 102px;
     font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    color: #d2aa6b;
 }
 .draco{
     height: 364px;
@@ -226,7 +227,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    .copyright {
+    .copyright{
         font-size: 20px;
         font-family: 'Bluu Next Titling', 'cursive', 'serif';
         font-style: normal;
@@ -245,6 +246,7 @@ footer {
         width: 492px;
         margin: 12px 0px 0px 75px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
     .draco {
         height: 322px;
@@ -260,6 +262,7 @@ footer {
         width: 434px;
         margin: 12px 0px 0px 54px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
     .draco {
         height: 322px;
@@ -274,6 +277,7 @@ footer {
         width: 340px;
         margin: 12px 0px 0px 55px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
     .draco {
         height: 316px;
@@ -294,6 +298,7 @@ footer {
         width: 340px;
         margin: 22px 0px 0px 45px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
 
     
@@ -304,6 +309,7 @@ footer {
         width: 324px;
         margin: 22px 0px 0px 32px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
     .draco {
         height: 248px;
@@ -316,6 +322,7 @@ footer {
         font-size: 33px;
         width: 300px;
         margin: 21px 0px 0px 30px;
+        color: #d2aa6b;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     .draco {
@@ -346,7 +353,7 @@ footer {
     .getthisbook {
         color: #d2aa6b;
         font-size: 30px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
 
 }
@@ -355,7 +362,7 @@ footer {
     .getthisbook {
         color: #d2aa6b;
         font-size: 24px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     .Lastbook-emt {
         margin: 0px -50px 80px -23px;
@@ -414,7 +421,7 @@ footer {
      .getthisbook {
         color: #d2aa6b;
         font-size: 43px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     .lastbook {
         height: 24rem;
@@ -447,14 +454,14 @@ footer {
     .getthisbook {
         color: #d2aa6b;
         font-size: 38px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     .thirdbox {
         display: flex;
-        background-color: #cdb473c8;
         background-image: url(img/stars.png);
         background-size: cover;
-        background-blend-mode: multiply;
+        background-color: #1a1a1a;
+        mix-blend-mode: multiply;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -470,6 +477,7 @@ footer {
         text-align: center;
         margin: 5px 58px 22px 65px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
 
 }
@@ -477,7 +485,7 @@ footer {
     .getthisbook {
         color: #d2aa6b;
         font-size: 38px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     video.latest {
         width: 480px;
@@ -529,7 +537,7 @@ footer {
         font-size: 24px;
         color: #d2aa6b;
         margin: 2px 0px 21px 0px;
-        font-family: 'Mason Regular', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     
 }
@@ -544,7 +552,7 @@ footer {
         justify-content: center;
         align-items: center;
         color: #d2aa6b;
-        font-family: 'Harry Potter', 'Bluu Next Bold';
+        font-family: 'harryp','MansonSancs Bold', 'BluuNext-Bold';
         font-size: 40px;
         height: 0px;
     }
@@ -553,7 +561,7 @@ footer {
     .getthisbook {
         color: #d2aa6b;
         font-size: 30px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     .lastbook {
         height: 16rem;
@@ -614,7 +622,7 @@ footer {
             justify-content: center;
             align-items: center;
             color: #d2aa6b;
-            font-family: 'Harry Potter', 'Bluu Next Bold';
+            font-family:'harryp', 'MansonSancs Bold', 'BluuNext-Bold';
             font-size: 36px;
             height: 0px;
         }
@@ -626,6 +634,7 @@ footer {
         text-align: center;
         margin: 4px 50px 22px 50px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
     .draco {
         height: 208px;
@@ -670,6 +679,7 @@ footer {
     text-align: center;
     margin: 6px 50px 22px 50px;
     font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    color: #d2aa6b;
 }
 .f-massage {
     display: flex;
@@ -723,6 +733,7 @@ video.latest {
         text-align: center;
         margin: 5px 36px 22px 30px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
     }
     video.latest {
         width: 270px;
@@ -750,7 +761,7 @@ video.latest {
         justify-content: center;
         align-items: center;
         color: #d2aa6b;
-        font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'harryp', 'MansonSancs Bold', 'BluuNext-Bold';
         font-size: 26px;
         height: 0px;
     }
@@ -762,7 +773,7 @@ video.latest {
     .getthisbook {
         color: #d2aa6b;
         font-size: 24px;
-        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
     .draco {
         height: 162px;
