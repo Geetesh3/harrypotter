@@ -1,0 +1,779 @@
+@font-face { 
+    font-family:"Princess Sofia" ;
+    src: url(https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+    font-family: 'Roboto';
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+    font-family: 'Bluu Next Titling ';
+    src: url(fonts/bluu-next/BluuNext-Titling.otf);
+    font-family:'Bluu Next Bold';
+    src: url(fonts/bluu-next/BluuNext-Bold.otf);
+    font-family: 'Bluu Next Bold Italic';
+    src: url(fonts/bluu-next/BluuNext-Bolditalic.otf);
+    font-family: 'Mason Regular';
+    src: url(fonts/Mason\ Regular.ttf);
+    font-family: 'Harry Potter' ;
+    src: url(fonts/HARRYP.TTF);
+    font-family: 'MansonSancs Bold';
+    src: url(fonts/MasonSansBold.woff2);
+    font-family: 'MasonSansRegular_Regular';
+    src: url(fonts/MasonSansRegular_Regular.woff2);
+    font-family: 'BluuSuuperstar-Italic';
+    src: url(fonts/BluuSuuperstar-Italic.woff2);
+    font-family: 'BluuNext-Bold';
+    src: url(fonts/BluuNext-Bold.woff2);
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #656b91;
+    background:transparent
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    background-image: url(img/z-brokenglass.jpg) ;
+
+    .logo{
+        height: 120px;
+        width: auto;
+        margin: 5px 0px 0px 0px;
+        padding: 0px;
+    }
+    .menus{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .doted,li,a{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 14px 5px 14px;
+    text-decoration: none;
+    color: #d2aa6b;
+    font-size: 24px;
+    font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+    }
+}
+.shortinghat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/z-brokenglass.jpg);
+    flex-direction: column;
+}
+.shat {
+    height: 257px;
+    width: 275px;
+    margin: 0px;
+    padding: 0px;
+}
+.f-massage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d2aa6b;
+    font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
+    font-size: 49px;
+    height: 0px;
+
+}
+.firstbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.secondbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(img/bg@2x-94387ea1024e309daad19a5561c912d0.jpg);
+}
+.Lastbook-emt{
+    margin: 0px 0px 82px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.getthisbook{
+    color: #d2aa6b;
+    font-size: 2.4rem;
+    font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+}
+.getbtn{
+    display: inline-block;
+    outline: none;
+    font-family: inherit;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: .3em;
+    height: 2.75em;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    padding: 0 1em;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+                inset 0 -2px 5px 1px rgba(139,66,8,1),
+                inset 0 -1px 1px 3px rgba(250,227,133,1);
+    background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+    border: 1px solid #a55d07;
+    color: rgb(120,50,5);
+    text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position:center;
+    
+}
+.getbtn:focus,
+.getbtn:hover{
+        background-size: 150% 150%;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
+                      inset 0 -2px 5px 1px #b17d10,
+                      inset 0 -1px 1px 3px rgba(250,227,133,1);
+        border: 1px solid rgba(165,93,7,.6);
+        color: rgba(120,50,5,.8);
+
+}
+.getbtn:active{
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
+              inset 0 -2px 5px 1px #b17d10,
+                inset 0 -1px 1px 3px rgb(224, 203, 117);
+}
+.lastbook{
+    height: 18rem;
+    width: auto;
+    margin:0px 0px 25px 0px;
+}
+
+.player{
+    display: flex;
+    height: 341px;
+    width: 480px;
+    margin: -35px 0px 90px 82px;
+    border: 20px solid transparent;
+    padding: 0px 15px 0px 0px;
+    border-image: url(img/border.svg) 14 stretch;
+    flex-direction: column;
+    align-items: center;
+}
+.plyerinfo{
+    font-size: 24px;
+    color: #d2aa6b;
+    margin: 2px 0px 21px 0px;
+    font-family: 'Mason Regular', 'serif', 'sans-serif';
+}
+.latest{
+    margin: -15px 0px 74px 26px;
+    width: 480px;
+    aspect-ratio: auto 480 / 280;
+    height: 280px;
+}
+.banner-elements{
+    margin: 0px 32px 108px 0px;
+    padding: 0px;
+    .bannerinfo{
+        margin: 0px 0px 103px 81px;
+        font-size: 26px;
+        color: #d2aa6b;
+        font-family: 'Mason Regular', 'serif', 'sans-serif';
+    }
+    .banners{
+        margin: -92px 130px 40px 0px;
+        padding: 0px;
+        height: 290px;
+        width: auto;
+    }
+}
+.thirdbox{
+    display: flex;
+    background-color: #cdb473c8;
+    background-image: url(img/stars.png);
+    background-size: cover;
+    background-blend-mode: multiply;
+
+}
+.big-d-text{
+    font-size: 50px;
+    width: 500px;
+    margin: 12px 0px 0px 102px;
+    font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+}
+.draco{
+    height: 364px;
+    margin: 34px 66px 0px 0px;
+}
+footer {
+    height: 40px;
+    margin: auto;
+    padding: 0px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .copyright {
+        font-size: 20px;
+        font-family: 'Bluu Next Titling', 'cursive', 'serif';
+        font-style: normal;
+        font-weight:400
+    }
+    .princess-sofia-regular {
+        font-family: "Princess Sofia", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+}
+/* Responsiveness */
+@media screen and (max-width:1270px) {
+    .big-d-text {
+        font-size: 48px;
+        width: 492px;
+        margin: 12px 0px 0px 75px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    .draco {
+        height: 322px;
+        margin: 34px 0px 0px 0px;
+        width: auto;
+    }
+
+    
+}
+@media screen and (max-width:1130px) {
+    .big-d-text {
+        font-size: 46px;
+        width: 434px;
+        margin: 12px 0px 0px 54px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    .draco {
+        height: 322px;
+        margin: 34px 0px 0px 0px;
+        width: auto;
+    }
+    
+}
+@media screen and (max-width:1070px) {
+    .big-d-text {
+        font-size: 36px;
+        width: 340px;
+        margin: 12px 0px 0px 55px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    .draco {
+        height: 316px;
+        margin: 36px 0px 0px 0px;
+        width: auto;
+    }
+
+    
+}
+@media screen and (max-width:980px) {
+    .draco {
+        height: 280px;
+        margin: 42px 0px 0px 0px;
+        width: auto;
+    }
+    .big-d-text {
+        font-size: 34px;
+        width: 340px;
+        margin: 22px 0px 0px 45px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+
+    
+}
+@media screen and (max-width:890px) {
+    .big-d-text {
+        font-size: 34px;
+        width: 324px;
+        margin: 22px 0px 0px 32px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    .draco {
+        height: 248px;
+        margin: 46px 0px 0px 0px;
+        width: auto;
+    }
+}
+@media screen and (max-width:815px) {
+    .big-d-text {
+        font-size: 33px;
+        width: 300px;
+        margin: 21px 0px 0px 30px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    .draco {
+        height: 230px;
+        margin: 50px 0px 0px 0px;
+        width: auto;
+    }
+}
+@media screen and (max-width:1160px){
+    .player {
+        display: flex;
+        height: 341px;
+        width: 480px;
+        margin: -35px 0px 40px 58px;
+        border: 20px solid transparent;
+        padding: 0px 15px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Lastbook-emt {
+        margin: 0px 0px 82px -8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 30px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+
+}
+@media screen and (max-width:1020px){
+
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 24px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    .Lastbook-emt {
+        margin: 0px -50px 80px -23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .player {
+        display: flex;
+        height: 341px;
+        width: 480px;
+        margin: -35px 0px 40px 44px;
+        border: 20px solid transparent;
+        padding: 0px 15px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width:1019px) {
+    .player {
+        display: flex;
+        height: 341px;
+        width: 606px;
+        margin: 6px 0px 20px 0px;
+        border: 20px solid transparent;
+        padding: 0px 15px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .player {
+        display: flex;
+        height: 373px;
+        width: 640px;
+        margin: 6px 0px 20px 0px;
+        border: 20px solid transparent;
+        padding: 0px 15px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    video.latest{
+        width: 586px;
+        aspect-ratio: auto 480 / 280;
+        height: 334px;
+     }
+     .getthisbook {
+        color: #d2aa6b;
+        font-size: 43px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    .lastbook {
+        height: 24rem;
+        width: auto;
+        margin:0px 0px 25px 0px;
+    }
+}
+@media screen and (max-width:760px) {
+    video.latest {
+        width: 540px;
+        aspect-ratio: auto 480 / 280;
+        height: 290px;
+    }
+    .player {
+        display: flex;
+        height: 332px;
+        width: 528px;
+        margin: 6px 0px -18px 0px;
+        border: 20px solid transparent;
+        padding: 0px 15px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lastbook {
+        height: 20rem;
+        width: auto;
+        margin:0px 0px 25px 0px;
+    }
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 38px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    .thirdbox {
+        display: flex;
+        background-color: #cdb473c8;
+        background-image: url(img/stars.png);
+        background-size: cover;
+        background-blend-mode: multiply;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .draco {
+        height: 308px;
+        margin: 48px 0px 0px 0px;
+        width: 596px;
+    }
+    .big-d-text {
+        font-size: 37px;
+        width: auto;
+        text-align: center;
+        margin: 5px 58px 22px 65px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+
+}
+@media screen and (max-width:640px) {
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 38px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    video.latest {
+        width: 480px;
+        aspect-ratio: auto 480 / 280;
+        height: 280px;
+    }
+    .player {
+        display: flex;
+        height: 331px;
+        width: 473px;
+        margin: 6px 0px 12px 0px;
+        border: 20px solid transparent;
+        padding: 0px 15px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Lastbook-emt {
+        margin: 0px -50px 47px -40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .draco {
+        height: 270px;
+        margin: 48px 0px 0px 0px;
+        width: 518px;
+    }
+}
+@media screen and (max-width:590px) {
+    video.latest {
+        width: 430px;
+        aspect-ratio: auto 480 / 280;
+        height: 260px;
+    }
+    .player {
+        display: flex;
+        height: 295px;
+        width: 411px;
+        margin: 6px 0px -33px 0px;
+        border: 20px solid transparent;
+        padding: 0px 20px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plyerinfo {
+        font-size: 24px;
+        color: #d2aa6b;
+        margin: 2px 0px 21px 0px;
+        font-family: 'Mason Regular', 'serif', 'sans-serif';
+    }
+    
+}
+@media screen and (max-width:560px) {
+    .draco {
+        height: 245px;
+        margin: 48px 0px 0px 0px;
+        width: 447px;
+    }
+    .f-massage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d2aa6b;
+        font-family: 'Harry Potter', 'Bluu Next Bold';
+        font-size: 40px;
+        height: 0px;
+    }
+}
+@media screen and (max-width:510px) {
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 30px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    .lastbook {
+        height: 16rem;
+        width: auto;
+       margin:0px 0px 25px 0px;
+    }
+    video.latest {
+        width: 383px;
+        aspect-ratio: auto 480 / 280;
+        height: 240px;
+    }
+    .player {
+        display: flex;
+        height: 250px;
+        width: 357px;
+        margin: 6px 0px -33px 0px;
+        border: 20px solid transparent;
+        padding: 0px 20px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+        .doted, li, a {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 8px 5px 11px;
+            text-decoration: none;
+            color: #d2aa6b;
+            font-size: 23px;
+            font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+        }
+        footer {
+            .copyright {
+                font-size: 16px;
+                font-family: 'Bluu Next Titling', 'cursive', 'serif';
+                font-style: normal;
+                font-weight: 400;
+            }
+        }
+        .Lastbook-emt {
+            margin: 0px -50px 22px -40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .draco {
+            height: 225px;
+            margin: 48px 0px 0px 0px;
+            width: 420px;
+        }
+        .f-massage {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #d2aa6b;
+            font-family: 'Harry Potter', 'Bluu Next Bold';
+            font-size: 36px;
+            height: 0px;
+        }
+}
+@media screen and (max-width:441px) {
+    .big-d-text {
+        font-size: 34px;
+        width: auto;
+        text-align: center;
+        margin: 4px 50px 22px 50px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    .draco {
+        height: 208px;
+        margin: 48px 0px 0px 0px;
+        width: 378px;
+    }
+    .f-massage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d2aa6b;
+        font-family: 'Harry Potter', 'Bluu Next Bold';
+        font-size: 30px;
+        height: 0px;
+    }
+}
+@media screen and (max-width:400px){
+    .header{
+    .doted, li, a {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 8px 2px 7px;
+        text-decoration: none;
+        color: #d2aa6b;
+        font-size: 21px;
+        font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+    }
+
+}
+.draco {
+    height: 197px;
+    margin: 30px 0px 0px 0px;
+    width: 351px;
+}
+.big-d-text {
+    font-size: 34px;
+    width: auto;
+    text-align: center;
+    margin: 6px 50px 22px 50px;
+    font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+}
+.f-massage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d2aa6b;
+    font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
+    font-size: 28px;
+    height: 0px;
+}
+video.latest {
+    width: 300px;
+    aspect-ratio: auto 480 / 280;
+    height: 240px;
+}
+.player {
+    display: flex;
+    height: 198px;
+    width: 276px;
+    margin: 5px 0px -35px 0px;
+    border: 18px solid transparent;
+    padding: 0px 20px 0px 0px;
+    border-image: url(img/border.svg) 14 stretch;
+    flex-direction: column;
+    align-items: center;
+}
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 25px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    .Lastbook-emt {
+        margin: 12px -50px 31px -40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright {
+        font-size: 14px;
+        font-family: 'Bluu Next Titling', 'cursive', 'serif';
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width:320px) {
+    .big-d-text {
+        font-size: 23px;
+        width: auto;
+        text-align: center;
+        margin: 5px 36px 22px 30px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    }
+    video.latest {
+        width: 270px;
+        aspect-ratio: auto 480 / 280;
+        height: 240px;
+    }
+    .player {
+        display: flex;
+        height: 180px;
+        width: 254px;
+        margin: 5px 0px -35px 0px;
+        border: 18px solid transparent;
+        padding: 0px 20px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lastbook {
+        height: 20rem;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .f-massage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d2aa6b;
+        font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-size: 26px;
+        height: 0px;
+    }
+    .lastbook {
+        height: 12rem;
+        width: auto;
+        margin: 0px 0px 0px 0px;
+    }
+    .getthisbook {
+        color: #d2aa6b;
+        font-size: 24px;
+        font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
+    }
+    .draco {
+        height: 162px;
+        margin: 30px 0px 9px 0px;
+        width: 286px;
+    }
+    .copyright {
+        font-size: 15px;
+        font-family: 'Bluu Next Titling', 'cursive', 'serif';
+        font-style: normal;
+        font-weight: 400;
+        font: bold;
+    }
+}
