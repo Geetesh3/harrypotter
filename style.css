@@ -1,18 +1,18 @@
-@font-face { 
-    font-family:"Princess Sofia" ;
+@font-face {
+    font-family: 'Princess Sofia';
     src: url(https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
     font-family: 'Roboto';
     src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
     font-family: 'Bluu Next Titling ';
     src: url(fonts/bluu-next/BluuNext-Titling.otf);
-    font-family:'Bluu Next Bold';
+    font-family: 'Bluu Next Bold';
     src: url(fonts/bluu-next/BluuNext-Bold.otf);
     font-family: 'Bluu Next Bold Italic';
     src: url(fonts/bluu-next/BluuNext-Bolditalic.otf);
     font-family: 'Mason Regular';
     src: url(fonts/Mason\ Regular.ttf);
-    font-family: "harryp" ;
-    src: url("HARRYP.TTF");
+    font-family: 'Harry Potter';
+    src: url('harrypotter.TTF');
     font-family: 'MansonSancs Bold';
     src: url(fonts/MasonSansBold.woff2);
     font-family: 'MasonSansRegular_Regular';
@@ -21,14 +21,17 @@
     src: url(fonts/BluuSuuperstar-Italic.woff2);
     font-family: 'BluuNext-Bold';
     src: url(fonts/BluuNext-Bold.woff2);
+    font-family: 'Noto Serif';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
 
 body {
+    font-family: 'HARRYP';
     margin: 0px;
     padding: 0px;
     background-color: #656b91;
-    background:transparent
+    background: transparent
 }
 
 .header {
@@ -38,46 +41,53 @@ body {
     margin: 0px;
     padding: 0px;
     flex-direction: column;
-    background-image: url(img/z-brokenglass.jpg) ;
+    background-image: url(img/z-brokenglass.jpg);
 
-    .logo{
+    .logo {
         height: 120px;
         width: auto;
         margin: 5px 0px 0px 0px;
         padding: 0px;
     }
-    .menus{
+
+    .menus {
         font-size: 20px;
         font-weight: bold;
     }
-    .doted,li,a{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 14px 5px 14px;
-    text-decoration: none;
-    color: #d2aa6b;
-    font-size: 24px;
-    font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+
+    .doted,
+    li,
+    a {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 14px 5px 14px;
+        text-decoration: none;
+        color: #d2aa6b;
+        font-size: 24px;
+        font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
     }
 }
-.shortinghat{
+
+.shortinghat {
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url(img/z-brokenglass.jpg);
     flex-direction: column;
 }
+
 .shat {
     height: 257px;
     width: 275px;
     margin: 0px;
     padding: 0px;
 }
-.f-massage{
+
+.f-massage {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,7 +97,8 @@ body {
     height: 0px;
 
 }
-.firstbox{
+
+.firstbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,26 +106,29 @@ body {
 
 }
 
-.secondbox{
+.secondbox {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     background-image: url(img/bg@2x-94387ea1024e309daad19a5561c912d0.jpg);
 }
-.Lastbook-emt{
+
+.Lastbook-emt {
     margin: 0px 0px 82px 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.getthisbook{
+
+.getthisbook {
     color: #d2aa6b;
     font-size: 2.4rem;
     font-family: 'MansonSancs Bold', 'BluuNext-Bold';
 }
-.getbtn{
+
+.getbtn {
     display: inline-block;
     outline: none;
     font-family: inherit;
@@ -126,41 +140,44 @@ body {
     line-height: 2.5em;
     text-transform: uppercase;
     padding: 0 1em;
-    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
-                inset 0 -2px 5px 1px rgba(139,66,8,1),
-                inset 0 -1px 1px 3px rgba(250,227,133,1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4),
+        inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
+        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
     background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
     border: 1px solid #a55d07;
-    color: rgb(120,50,5);
+    color: rgb(120, 50, 5);
     text-shadow: 0 2px 2px rgba(250, 227, 133, 1);
     cursor: pointer;
     transition: all .2s ease-in-out;
     background-size: 100% 100%;
-    background-position:center;
-    
-}
-.getbtn:focus,
-.getbtn:hover{
-        background-size: 150% 150%;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23),
-                      inset 0 -2px 5px 1px #b17d10,
-                      inset 0 -1px 1px 3px rgba(250,227,133,1);
-        border: 1px solid rgba(165,93,7,.6);
-        color: rgba(120,50,5,.8);
+    background-position: center;
 
 }
-.getbtn:active{
-    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(110,80,20,.4),
-              inset 0 -2px 5px 1px #b17d10,
-                inset 0 -1px 1px 3px rgb(224, 203, 117);
+
+.getbtn:focus,
+.getbtn:hover {
+    background-size: 150% 150%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23),
+        inset 0 -2px 5px 1px #b17d10,
+        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    border: 1px solid rgba(165, 93, 7, .6);
+    color: rgba(120, 50, 5, .8);
+
 }
-.lastbook{
+
+.getbtn:active {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16), 0 3px 6px rgba(110, 80, 20, .4),
+        inset 0 -2px 5px 1px #b17d10,
+        inset 0 -1px 1px 3px rgb(224, 203, 117);
+}
+
+.lastbook {
     height: 18rem;
     width: auto;
-    margin:0px 0px 25px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
-.player{
+.player {
     display: flex;
     height: 341px;
     width: 480px;
@@ -171,35 +188,41 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.plyerinfo{
+
+.plyerinfo {
     font-size: 24px;
     color: #d2aa6b;
     margin: 2px 0px 21px 0px;
     font-family: 'MansonSancs Bold', 'BluuNext-Bold';
 }
-.latest{
+
+.latest {
     margin: -15px 0px 74px 26px;
     width: 480px;
     aspect-ratio: auto 480 / 280;
     height: 280px;
 }
-.banner-elements{
+
+.banner-elements {
     margin: 0px 32px 108px 0px;
     padding: 0px;
-    .bannerinfo{
+
+    .bannerinfo {
         margin: 0px 0px 103px 81px;
         font-size: 26px;
         color: #d2aa6b;
         font-family: 'Mason Regular', 'serif', 'sans-serif';
     }
-    .banners{
+
+    .banners {
         margin: -92px 130px 40px 0px;
         padding: 0px;
         height: 290px;
         width: auto;
     }
 }
-.thirdbox{
+
+.thirdbox {
     display: flex;
     background-image: url(img/stars.png);
     background-size: cover;
@@ -207,16 +230,58 @@ body {
     mix-blend-mode: multiply;
 
 }
-.big-d-text{
+
+.big-d-text {
     font-size: 50px;
     width: 500px;
     margin: 12px 0px 0px 102px;
     font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     color: #d2aa6b;
 }
-.draco{
+
+.draco {
     height: 364px;
     margin: 34px 66px 0px 0px;
+}
+
+.watchallmovie {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/stars.png), linear-gradient(180deg, #120b0e, #707b46 121.35%);
+    justify-content: center;
+    background-blend-mode: color-dodge;
+    height: auto;
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+
+.watchallmovie-title {
+    font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+    color: #d2aa6b;
+    margin: 18px auto;
+}
+.watchallmovie-content{
+    display: flex;
+}
+.film-poster {
+    height: 300px;
+    margin: 10px 12px 10px 110px;
+    background-image: url(img/border.svg);
+    border: 8px solid transparent;
+    background-repeat: unset;
+}
+.poster-text{
+
+    color: #95c06a;
+    font-size: 24px;
+    margin: 12px 95px 0px 106px;
+    font-family: 'MansonSancs Bold', 'BluuNext-Bold', system-ui;
+    
+}
+.poster-text, ul, li{
+    margin: 4px auto;
+    list-style: auto;
+    font-family: Harry Potter;
 }
 footer {
     height: 40px;
@@ -227,18 +292,20 @@ footer {
     align-items: center;
     justify-content: center;
 
-    .copyright{
+    .copyright {
         font-size: 20px;
         font-family: 'Bluu Next Titling', 'cursive', 'serif';
         font-style: normal;
-        font-weight:400
+        font-weight: 400
     }
+
     .princess-sofia-regular {
         font-family: "Princess Sofia", cursive;
         font-weight: 400;
         font-style: normal;
-      }
+    }
 }
+
 /* Responsiveness */
 @media screen and (max-width:1270px) {
     .big-d-text {
@@ -248,14 +315,16 @@ footer {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
+
     .draco {
         height: 322px;
         margin: 34px 0px 0px 0px;
         width: auto;
     }
 
-    
+
 }
+
 @media screen and (max-width:1130px) {
     .big-d-text {
         font-size: 46px;
@@ -264,13 +333,15 @@ footer {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
+
     .draco {
         height: 322px;
         margin: 34px 0px 0px 0px;
         width: auto;
     }
-    
+
 }
+
 @media screen and (max-width:1070px) {
     .big-d-text {
         font-size: 36px;
@@ -279,20 +350,23 @@ footer {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
+
     .draco {
         height: 316px;
         margin: 36px 0px 0px 0px;
         width: auto;
     }
 
-    
+
 }
+
 @media screen and (max-width:980px) {
     .draco {
         height: 280px;
         margin: 42px 0px 0px 0px;
         width: auto;
     }
+
     .big-d-text {
         font-size: 34px;
         width: 340px;
@@ -300,9 +374,25 @@ footer {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
-
-    
+    .film-poster {
+        height: 300px;
+        margin: 62px 12px 10px 56px;
+        background-image: url(img/border.svg);
+        border: 8px solid transparent;
+        background-repeat: unset;
+    }
+    .poster-text, ul, li {
+        margin: 4px 0px 0px -4px;
+        list-style: auto;
+        font-family: Harry Potter;
+    }
+.poster-text{
+    color: #95c06a;
+    font-size: 22px;
 }
+
+}
+
 @media screen and (max-width:890px) {
     .big-d-text {
         font-size: 34px;
@@ -311,10 +401,33 @@ footer {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
+
     .draco {
         height: 248px;
         margin: 46px 0px 0px 0px;
         width: auto;
+    }
+}
+@media screen and (max-width:850px) {
+    .watchallmovie-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .film-poster {
+        height: 298px;
+        margin: 0px 0px 0px 0px;
+        background-image: url(img/border.svg);
+        border: 8px solid transparent;
+        width: auto;
+        /* background-image: no-repeat; */
+        background-attachment: local;
+    }
+    .poster-text, ul, li {
+        margin: 8px 0px 10px -4px;
+        list-style: auto;
+        font-family: Harry Potter;
     }
 }
 @media screen and (max-width:815px) {
@@ -325,13 +438,15 @@ footer {
         color: #d2aa6b;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     .draco {
         height: 230px;
         margin: 50px 0px 0px 0px;
         width: auto;
     }
 }
-@media screen and (max-width:1160px){
+
+@media screen and (max-width:1160px) {
     .player {
         display: flex;
         height: 341px;
@@ -343,6 +458,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .Lastbook-emt {
         margin: 0px 0px 82px -8px;
         display: flex;
@@ -350,6 +466,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .getthisbook {
         color: #d2aa6b;
         font-size: 30px;
@@ -357,13 +474,15 @@ footer {
     }
 
 }
-@media screen and (max-width:1020px){
+
+@media screen and (max-width:1020px) {
 
     .getthisbook {
         color: #d2aa6b;
         font-size: 24px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     .Lastbook-emt {
         margin: 0px -50px 80px -23px;
         display: flex;
@@ -371,6 +490,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .player {
         display: flex;
         height: 341px;
@@ -382,8 +502,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    
+
 }
+
 @media screen and (max-width:1019px) {
     .player {
         display: flex;
@@ -396,12 +517,14 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .secondbox {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .player {
         display: flex;
         height: 373px;
@@ -413,28 +536,33 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-    video.latest{
+
+    video.latest {
         width: 586px;
         aspect-ratio: auto 480 / 280;
         height: 334px;
-     }
-     .getthisbook {
+    }
+
+    .getthisbook {
         color: #d2aa6b;
         font-size: 43px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     .lastbook {
         height: 24rem;
         width: auto;
-        margin:0px 0px 25px 0px;
+        margin: 0px 0px 25px 0px;
     }
 }
+
 @media screen and (max-width:760px) {
     video.latest {
         width: 540px;
         aspect-ratio: auto 480 / 280;
         height: 290px;
     }
+
     .player {
         display: flex;
         height: 332px;
@@ -446,16 +574,19 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .lastbook {
         height: 20rem;
         width: auto;
-        margin:0px 0px 25px 0px;
+        margin: 0px 0px 25px 0px;
     }
+
     .getthisbook {
         color: #d2aa6b;
         font-size: 38px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     .thirdbox {
         display: flex;
         background-image: url(img/stars.png);
@@ -466,11 +597,13 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .draco {
         height: 308px;
         margin: 48px 0px 0px 0px;
         width: 596px;
     }
+
     .big-d-text {
         font-size: 37px;
         width: auto;
@@ -481,17 +614,20 @@ footer {
     }
 
 }
+
 @media screen and (max-width:640px) {
     .getthisbook {
         color: #d2aa6b;
         font-size: 38px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     video.latest {
         width: 480px;
         aspect-ratio: auto 480 / 280;
         height: 280px;
     }
+
     .player {
         display: flex;
         height: 331px;
@@ -503,6 +639,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .Lastbook-emt {
         margin: 0px -50px 47px -40px;
         display: flex;
@@ -510,18 +647,34 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .draco {
         height: 270px;
         margin: 48px 0px 0px 0px;
         width: 518px;
     }
+    .poster-text {
+        color: #95c06a;
+        font-size: 20px;
+    }
+    .film-poster {
+        height: 280px;
+        margin: 0px 0px 0px 0px;
+        background-image: url(img/border.svg);
+        border: 8px solid transparent;
+        width: auto;
+        background-attachment: local;
+    }
+
 }
+
 @media screen and (max-width:590px) {
     video.latest {
         width: 430px;
         aspect-ratio: auto 480 / 280;
         height: 260px;
     }
+
     .player {
         display: flex;
         height: 295px;
@@ -533,46 +686,71 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .plyerinfo {
         font-size: 24px;
         color: #d2aa6b;
         margin: 2px 0px 21px 0px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
-    
+
 }
+
 @media screen and (max-width:560px) {
     .draco {
         height: 245px;
         margin: 48px 0px 0px 0px;
         width: 447px;
     }
+
     .f-massage {
         display: flex;
         justify-content: center;
         align-items: center;
         color: #d2aa6b;
-        font-family: 'harryp','MansonSancs Bold', 'BluuNext-Bold';
+        font-family: 'harryp', 'MansonSancs Bold', 'BluuNext-Bold';
         font-size: 40px;
         height: 0px;
     }
+    .poster-text {
+        color: #95c06a;
+        font-size: 20px;
+    }
+    .film-poster {
+        height: 224px;
+        margin: 0px 0px 0px 0px;
+        background-image: url(img/border.svg);
+        border: 8px solid transparent;
+        width: auto;
+        background-attachment: local;
+    }
+    .watchallmovie-title {
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
+        margin: 16px auto;
+        font-size: 24px;
+    }
 }
+
 @media screen and (max-width:510px) {
     .getthisbook {
         color: #d2aa6b;
         font-size: 30px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     .lastbook {
         height: 16rem;
         width: auto;
-       margin:0px 0px 25px 0px;
+        margin: 0px 0px 25px 0px;
     }
+
     video.latest {
         width: 383px;
         aspect-ratio: auto 480 / 280;
         height: 240px;
     }
+
     .player {
         display: flex;
         height: 250px;
@@ -584,49 +762,70 @@ footer {
         flex-direction: column;
         align-items: center;
     }
-        .doted, li, a {
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            padding: 0px 0px 0px 0px;
-            margin: 0px 8px 5px 11px;
-            text-decoration: none;
-            color: #d2aa6b;
-            font-size: 23px;
-            font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+
+    /* .doted,
+    li,
+    a {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 8px 5px 11px;
+        text-decoration: none;
+        color: #d2aa6b;
+        font-size: 23px;
+        font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+    } */
+
+    footer {
+        .copyright {
+            font-size: 16px;
+            font-family: 'Bluu Next Titling', 'cursive', 'serif';
+            font-style: normal;
+            font-weight: 400;
         }
-        footer {
-            .copyright {
-                font-size: 16px;
-                font-family: 'Bluu Next Titling', 'cursive', 'serif';
-                font-style: normal;
-                font-weight: 400;
-            }
-        }
-        .Lastbook-emt {
-            margin: 0px -50px 22px -40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .draco {
-            height: 225px;
-            margin: 48px 0px 0px 0px;
-            width: 420px;
-        }
-        .f-massage {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #d2aa6b;
-            font-family:'harryp', 'MansonSancs Bold', 'BluuNext-Bold';
-            font-size: 36px;
-            height: 0px;
-        }
+    }
+
+    .Lastbook-emt {
+        margin: 0px -50px 22px -40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .draco {
+        height: 225px;
+        margin: 48px 0px 0px 0px;
+        width: 420px;
+    }
+
+    .f-massage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d2aa6b;
+        font-family: 'harryp', 'MansonSancs Bold', 'BluuNext-Bold';
+        font-size: 36px;
+        height: 0px;
+    }
+    .poster-text,.p-list,.plist {
+        color: #95c06a;
+        font-size: 16px;
+        margin: 8px 0px 10px -4px;
+        list-style: auto;
+        font-family: Harry Potter;
+    }
+    .watchallmovie-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
 @media screen and (max-width:441px) {
     .big-d-text {
         font-size: 34px;
@@ -636,11 +835,13 @@ footer {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
+
     .draco {
         height: 208px;
         margin: 48px 0px 0px 0px;
         width: 378px;
     }
+
     .f-massage {
         display: flex;
         justify-content: center;
@@ -651,66 +852,98 @@ footer {
         height: 0px;
     }
 }
-@media screen and (max-width:400px){
-    .header{
-    .doted, li, a {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        padding: 0px 0px 0px 0px;
-        margin: 0px 8px 2px 7px;
-        text-decoration: none;
+
+@media screen and (max-width:400px) {
+    .header {
+
+        .doted,
+        li,
+        a {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 8px 2px 7px;
+            text-decoration: none;
+            color: #d2aa6b;
+            font-size: 21px;
+            font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+        }
+
+    }
+    .film-poster {
+        height: 210px;
+        margin: 0px 0px 0px 0px;
+        background-image: url(img/border.svg);
+        border: 8px solid transparent;
+        width: auto;
+        background-attachment: local;
+    }
+    .watchallmovie-title {
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
-        font-size: 21px;
-        font-family: 'Bluu Next Bold Italic', 'serif', 'sans-serif';
+        margin: 16px auto;
+        font-size: 19px;
+    }
+    .poster-text, .p-list, .plist {
+        color: #95c06a;
+        font-size: 14px;
+        margin: 8px 0px 10px -4px;
+        list-style: auto;
+        font-family: Harry Potter;
     }
 
-}
-.draco {
-    height: 197px;
-    margin: 30px 0px 0px 0px;
-    width: 351px;
-}
-.big-d-text {
-    font-size: 34px;
-    width: auto;
-    text-align: center;
-    margin: 6px 50px 22px 50px;
-    font-family: 'MansonSancs Bold', 'BluuNext-Bold';
-    color: #d2aa6b;
-}
-.f-massage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #d2aa6b;
-    font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
-    font-size: 28px;
-    height: 0px;
-}
-video.latest {
-    width: 300px;
-    aspect-ratio: auto 480 / 280;
-    height: 240px;
-}
-.player {
-    display: flex;
-    height: 198px;
-    width: 276px;
-    margin: 5px 0px -35px 0px;
-    border: 18px solid transparent;
-    padding: 0px 20px 0px 0px;
-    border-image: url(img/border.svg) 14 stretch;
-    flex-direction: column;
-    align-items: center;
-}
+    .draco {
+        height: 185px;
+        margin: 30px 0px 0px 0px;
+        width: 306px;
+    }
+
+    .big-d-text {
+        font-size: 34px;
+        width: auto;
+        text-align: center;
+        margin: 6px 50px 22px 50px;
+        font-family: 'MansonSancs Bold', 'BluuNext-Bold';
+        color: #d2aa6b;
+    }
+
+    .f-massage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d2aa6b;
+        font-family: 'Harry Potter', 'Bluu Next Bold', 'serif', 'sans-serif';
+        font-size: 28px;
+        height: 0px;
+    }
+
+    video.latest {
+        width: 300px;
+        aspect-ratio: auto 480 / 280;
+        height: 240px;
+    }
+
+    .player {
+        display: flex;
+        height: 198px;
+        width: 276px;
+        margin: 5px 0px -35px 0px;
+        border: 18px solid transparent;
+        padding: 0px 20px 0px 0px;
+        border-image: url(img/border.svg) 14 stretch;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .getthisbook {
         color: #d2aa6b;
         font-size: 25px;
         font-family: 'Bluu Next Bold', 'serif', 'sans-serif';
     }
+
     .Lastbook-emt {
         margin: 12px -50px 31px -40px;
         display: flex;
@@ -718,6 +951,7 @@ video.latest {
         justify-content: center;
         align-items: center;
     }
+
     .copyright {
         font-size: 14px;
         font-family: 'Bluu Next Titling', 'cursive', 'serif';
@@ -726,6 +960,7 @@ video.latest {
     }
 
 }
+
 @media screen and (max-width:320px) {
     .big-d-text {
         font-size: 23px;
@@ -735,11 +970,13 @@ video.latest {
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
         color: #d2aa6b;
     }
+
     video.latest {
         width: 270px;
         aspect-ratio: auto 480 / 280;
         height: 240px;
     }
+
     .player {
         display: flex;
         height: 180px;
@@ -751,11 +988,13 @@ video.latest {
         flex-direction: column;
         align-items: center;
     }
+
     .lastbook {
         height: 20rem;
         width: auto;
         margin: 0px 0px 0px 0px;
     }
+
     .f-massage {
         display: flex;
         justify-content: center;
@@ -765,26 +1004,45 @@ video.latest {
         font-size: 26px;
         height: 0px;
     }
+
     .lastbook {
         height: 12rem;
         width: auto;
         margin: 0px 0px 0px 0px;
     }
+
     .getthisbook {
         color: #d2aa6b;
         font-size: 24px;
         font-family: 'MansonSancs Bold', 'BluuNext-Bold';
     }
+
     .draco {
         height: 162px;
         margin: 30px 0px 9px 0px;
         width: 286px;
     }
+
     .copyright {
         font-size: 15px;
         font-family: 'Bluu Next Titling', 'cursive', 'serif';
         font-style: normal;
         font-weight: 400;
         font: bold;
+    }
+    .film-poster {
+        height: 200px;
+        margin: 0px 0px 0px 0px;
+        background-image: url(img/border.svg);
+        border: 8px solid transparent;
+        width: auto;
+        background-attachment: local;
+    }
+    .poster-text, .p-list, .plist {
+        color: #95c06a;
+        font-size: 12px;
+        margin: 8px 0px 10px -4px;
+        list-style: auto;
+        font-family: Harry Potter;
     }
 }
